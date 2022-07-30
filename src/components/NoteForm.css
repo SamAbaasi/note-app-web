@@ -20,3 +20,6 @@
 .btn-save {
     color: rgb(0, 134, 31);
 }
+.btn-save:disabled {
+    color: #cccccc;
+}

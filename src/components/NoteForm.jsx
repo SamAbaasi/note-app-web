@@ -4,6 +4,7 @@ import './NoteForm.css'
 export const NoteForm = ({note, onSubmit, onCancel}) => {
     const [title, setTitle] = useState('')
     const [text, setText] = useState('')
+
     useEffect(() => {
         setTitle(note?.title || '')
         setText(note?.text || '')
@@ -15,8 +16,8 @@ export const NoteForm = ({note, onSubmit, onCancel}) => {
         onSubmit(updatedNote)
     }
     const refreshForm = () => {
-        setTitle(note.title)
-        setText(note.text)
+        setTitle('')
+        setText('')
         onCancel()
     }
 
@@ -54,6 +55,7 @@ export const NoteForm = ({note, onSubmit, onCancel}) => {
                 data-testid="save-note"
                 className="btn btn-save"
                 value="Save"
+                disabled={note === null}
                 onClick={(e) => onSave(e)}
             />
         </div>

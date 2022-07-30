@@ -45,7 +45,7 @@ const App = (props) => {
 
     // Unselect note
     function onCancel(){
-        fetchNotes()
+        setSelected(null)
     }
     return (
         <div className="App">
