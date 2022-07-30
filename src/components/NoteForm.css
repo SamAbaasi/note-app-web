@@ -1,0 +1,22 @@
+.note-form {
+    padding: 30px;
+    width: 70vw;
+}
+.form-group {
+    display: flex;
+    margin-bottom: 10px;
+}
+.form-control {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+}
+.text-area {
+    height: 150px;
+}
+.btn-cancel {
+    color: crimson;
+}
+.btn-save {
+    color: rgb(0, 134, 31);
+}

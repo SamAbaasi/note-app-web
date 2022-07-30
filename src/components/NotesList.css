@@ -1,0 +1,31 @@
+.list {
+    width: 30vw;
+    height: 100vh;
+    border-right: 1px solid #cccccc;
+    overflow: auto;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+.btn-add {
+    color: #2267c7;
+}
+.list-group {
+
+}
+.list-group-item {
+    cursor: pointer;
+    padding: 20px;
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    background-color: white;
+}
+.active {
+    background-color: cornflowerblue;
+    color: white;
+}
