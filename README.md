@@ -2,6 +2,13 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+### Screens
+
+
+https://github.com/SamanAbasi/note-app-web/assets/53538021/5328a924-ffb7-4f89-b07c-b3edb5ce4930
+
+
+
 ### Live Demo
 
 [https://note-app-blue.netlify.app/](https://note-app-blue.netlify.app/)
